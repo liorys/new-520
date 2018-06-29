@@ -31,8 +31,8 @@ while True:
             # print(arquivo.readline())
             var = arquivo.readlines()
             break
-    except Exception as Error:
-        print('Arquivo nao encontrado')
+    except Exception as error:
+        print('Arquivo nao encontrado: {}'.format(error))
         
 
 cont = 0
