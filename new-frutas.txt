@@ -1,0 +1,6 @@
+mamao -0
+abacaxi-1
+limao-2
+uva-3
+pera-4
+maca-5
