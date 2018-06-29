@@ -17,13 +17,23 @@
 # 
 
 ######## EXEMPLO CRIAR E ALTERAR LISTA #########
-with open('frutas.txt', 'r') as arquivo:
-    # arquivo.write('abacaxi \n')
-    # print(arquivo.readline())
-    # print(arquivo.readline())
-    # arquivo.seek(0)
-    # print(arquivo.readline())
-    var = arquivo.readlines()
+
+
+
+while True:
+    arquivox = input('Digite o nome do arquivo:')
+    try:
+        with open(arquivox, 'r') as arquivo:
+            # arquivo.write('abacaxi \n')
+            # print(arquivo.readline())
+            # print(arquivo.readline())
+            # arquivo.seek(0)
+            # print(arquivo.readline())
+            var = arquivo.readlines()
+            break
+    except Exception as Error:
+        print('Arquivo nao encontrado')
+        
 
 cont = 0
 newlist = []

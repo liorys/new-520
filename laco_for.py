@@ -24,17 +24,28 @@ numeros = list(range(40,100))
 #     print(x)
 
 
-num = int(input('Digite um numero: '))
+# num = int(input('Digite um numero: '))
 
-for x in range(num):
-    if x % 2 == 0:
-        print('{} par'.format(x))
-    else:
-        print('{} impar'.format(x))
+# for x in range(num):
+#     if x % 2 == 0:
+#         print('{} par'.format(x))
+#     else:
+#         print('{} impar'.format(x))
 
 
 ########### list string com for ############
 # for x in range(97, 97 + 27):
 #     print(chr(x))
 
+# for nome in nomes:
+#     if nome == 'carla':
+#         continue
+# print(nomes)
 
+for nome in nomes:
+    if nome == 'suzi':
+        print('Achei')
+        break
+else:
+    print('nao achei')
+    print('ola mundo')
