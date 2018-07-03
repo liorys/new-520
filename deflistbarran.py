@@ -22,6 +22,7 @@ def escr_list(parametro):
 
 lista = ['fabio','mariaa','joao','carla','joana','ze','ana','shdasdhiasu']
 
+# mostra  lista antiga
 print (lista)
 # mostra nova lista
 print(lerlist(lista))
