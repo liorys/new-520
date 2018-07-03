@@ -1,6 +1,5 @@
-mamao 
-abacaxi
-limao
+maca
 uva
 pera
-maca
+abacate
+morango

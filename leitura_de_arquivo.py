@@ -33,8 +33,9 @@ while True:
             break
     except Exception as error:
         print('Arquivo nao encontrado: {}'.format(error))
-        
 
+print(var)  
+exit()
 cont = 0
 newlist = []
 
