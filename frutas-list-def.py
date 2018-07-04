@@ -4,11 +4,11 @@ from pprint import pprint
 
 
 frutas = [
-        {'nome':'pera','preco':'1.0','qtd':'10'},
-        {'nome':'uva','preco':'2.0','qtd':'20'},
-        {'nome':'abacaxi','preco':'3.0','qtd':'30'},
-        {'nome': 'morango', 'preco': '4.0', 'qtd': '40'},
-        {'nome': 'kiwi', 'preco': '5.0', 'qtd': '50'},
+        {'nome':'pera','preco':1.0,'qtd':10},
+        {'nome':'uva','preco':2.0,'qtd':20},
+        {'nome':'abacaxi','preco':3.0,'qtd':30},
+        {'nome': 'morango', 'preco':4.0, 'qtd': 40},
+        {'nome': 'kiwi', 'preco': 5.0, 'qtd':50},
 
     ]
 
