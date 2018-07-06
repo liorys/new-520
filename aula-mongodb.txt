@@ -1,0 +1,24 @@
+MONGO DB
+
+
+
+show dbs # mostra as bases criadas
+use 4linux # cria a base
+show tables # mostra as tabelas
+show collections # mostra as tabelas
+db.pessoas.insert({'_id':2,'maria':'fabio','idade':27}) # cria o banco
+db.pessoas.find()# mostra as informacoes da tabela
+db.pessoas.find().pretty()# mostra as informacoes da tabela mais legivel
+db.pessoas.find({'_id':2})# Busca a informacao na tabela usando o _id passado
+db.pessoas.remove({'_id':2})# Remove o intem desejado
+db.pessoas.remove({'nome':'joao'})# Remove passando a chave como parametro
+db.pessoas.update({'_id':1},{'nome':'fabio','idade':27})# altera toda a informacao pela desejada
+db.pessoas.update({'_id':1},{'$set':{'idade':'28'}})# Altera somente o valor, se nao existir o valor ele adiciona
+
+
+
+
+
+
+d
+
