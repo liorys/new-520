@@ -1,0 +1,50 @@
+POSTGRESQL
+
+apt-get install postgresql
+apt-get install postgres-contrib
+su - postgres
+
+psql = entra no modo de configuração do banco sql
+\q = sai do banco
+\dt = mostra as tabelas criadas
+create user admin password '4linux'; = cria usuario no banco
+drop user admin = apaga o usuario admin
+\du = verifica os usuarios criados (q para sair)
+create database projeto owner admin; = cria o banco de dados
+psql -h localhost -U admin projeto = loga no banco com o usuario criado
+
+# cria a tabela
+create table pessoas(
+    id serial not null, # not null parametro que informa que o campo nao pode ser nulo
+    nome varchar(50),
+    email varchar(50),
+    idade smallint, 
+    telefone varchar(12)
+);
+
+\d pessoas = mostra a tabela criada
+
+
+# insere informacoes na tabela com id automatico
+insert into pessoas(nome, email, idade, telefone)
+values('Carla','Carla@carla',22,'1167223333');
+
+# insere informacoes na tabela utilizando id
+insert into pessoas values(2,'maria','maria@maria',50,'119222-3333');
+
+# consulta tadas informacoes na tabela
+select * from pessoas 
+select * from pessoas where id=1;
+
+# atualiza informacao na tabela no id = 1
+update pessoas set telefone='11966211511' where id=1; 
+
+
+
+
+
+
+
+
+
+
